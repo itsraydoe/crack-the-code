@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.vault-container {
+  background: #112;
+  border: 2px solid #0ff;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #0ff;
+}
+
+.vault-display {
+  margin: 1rem 0;
+}
+
+#code-screen {
+  font-size: 2rem;
+  background: #000;
+  border: 2px inset #0ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+.num-pad .row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.num-pad button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.4rem;
+  background: #0ff;
+  border: none;
+  color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.num-pad button:hover {
+  background: #00ffffaa;
+}
+
+#clear, #submit {
+  background: #f0a;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  min-height: 24px;
+}
+
+#guess-history {
+  margin-top: 20px;
+  background: #223;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#guess-list {
+  list-style: none;
+  padding-left: 0;
+}

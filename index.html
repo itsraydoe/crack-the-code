@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crack the Code</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="vault-container">
+    <h1>🔐 Crack the Code</h1>
+    <div id="wallet-connection">
+      <button id="connect-wallet">Connect Wallet</button>
+    </div>
+    
+    <div class="vault-display">
+      <div id="code-screen">____</div>
+      <div class="num-pad">
+        <div class="row">
+          <button class="num">1</button>
+          <button class="num">2</button>
+          <button class="num">3</button>
+        </div>
+        <div class="row">
+          <button class="num">4</button>
+          <button class="num">5</button>
+          <button class="num">6</button>
+        </div>
+        <div class="row">
+          <button class="num">7</button>
+          <button class="num">8</button>
+          <button class="num">9</button>
+        </div>
+        <div class="row">
+          <button id="clear">C</button>
+          <button class="num">0</button>
+          <button id="submit">🔓</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="feedback"></div>
+    <div id="guess-history">
+      <h2>Today's Guesses</h2>
+      <ul id="guess-list"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
